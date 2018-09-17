@@ -10,7 +10,7 @@ class LandingPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            landingSrc: '\\.\\images\\sabrina_headshot.jpg',
+            landingSrc: '\\.\\images\\placeholder.jpg',
         }
     }
 
@@ -34,7 +34,6 @@ class LandingPage extends Component {
             </div>
         );
     }
-
 }
 
 export default withRouter(LandingPage);
